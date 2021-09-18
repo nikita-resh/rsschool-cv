@@ -56,6 +56,76 @@
   opacity: 100%;
 }
 
+@media (min-width: 1200px) {
+  .main-wrapper {
+    width: 1000px;
+  }
+  #photo {
+    width: 400px;
+  }
+  .gray {
+    position: relative;
+    background: #f6f6f6;
+    width: 750px;
+  }
+  #great-text {
+    font-size: 70px;
+    line-height: 90px;
+  }
+  .header {
+    width: 350px;
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  #about-me {
+    width: 600px;
+  }
+  .section {
+    margin-left: 80px;
+  }
+  .centered {
+    margin-top: 115px;
+    margin-left: 220px;
+  }
+  .heading {
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .main-text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  #rs-logo {
+    width: 60px;
+  }
+  #youtube {
+    width: 60px;
+  }
+  .footer {
+    height: 90px;
+    margin-top: 110px;
+  }
+
+  .purple {
+    bottom: 30px;
+  }
+
+  #first-p {
+    left: 48px;
+  }
+  #second-p {
+    left: 95px;
+  }
+  #third-p {
+    left: 24px;
+  }
+}
+
 @media (min-width: 1400px) {
   .main-wrapper {
     width: 1200px;
