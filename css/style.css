@@ -55,3 +55,62 @@
 #youtube:hover {
   opacity: 100%;
 }
+
+@media (min-width: 1400px) {
+  .main-wrapper {
+    width: 1200px;
+  }
+  #photo {
+    width: 500px;
+  }
+  .gray {
+    position: relative;
+    background: #f6f6f6;
+    width: 850px;
+  }
+  #great-text {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .header {
+    width: 350px;
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  #about-me {
+    width: 700px;
+  }
+  .section {
+    margin-left: 118px;
+  }
+  .centered {
+    margin-left: 320px;
+  }
+  .heading {
+    margin-top: 125px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .title {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .main-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  #rs-logo {
+    width: 70px;
+  }
+  #youtube {
+    width: 70px;
+  }
+  .footer {
+    height: 110px;
+    margin-top: 140px;
+  }
+
+  .purple {
+    bottom: 25px;
+  }
+}
