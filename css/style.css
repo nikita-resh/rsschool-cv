@@ -1,0 +1,57 @@
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 500ms;
+}
+
+.under:hover::after {
+  width: 100%;
+}
+
+.footer {
+  background-color: #f6f6f6;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#github {
+  display: block;
+  text-decoration: none;
+
+  animation-duration: 3s;
+}
+
+#github:hover {
+  color: black;
+}
+
+#time {
+  display: block;
+}
+
+#rs-logo {
+  display: block;
+  width: 82px;
+  opacity: 70%;
+  transition: opacity 0.2s;
+}
+
+#rs-logo:hover {
+  opacity: 100%;
+}
+
+#youtube {
+  opacity: 70%;
+  display: block;
+  transition: opacity 0.2s;
+  width: 82px;
+}
+
+#youtube:hover {
+  opacity: 100%;
+}
