@@ -23,4 +23,7 @@ function truncate(str, maxlength) {
 }
 ```
 6. StressLess (learning project) (HTML, CSS, node.js, docker, lua)  
-https://github.com/nikita-resh/StressLess.git
+https://github.com/nikita-resh/StressLess.git  
+7. Last year finished BSU Lyceum and entered BSU (Mechanics and Mathematics faculty)  
+Course on udemy: https://www.udemy.com/course/web_developer/
+8. B1 (I have some speaking practice, but not with native speakers)
