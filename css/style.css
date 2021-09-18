@@ -1,3 +1,170 @@
+body {
+  background: #e5e5e5;
+  width: 100%;
+}
+
+.main-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+.main-wrapper {
+  position: relative;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+.intro {
+  position: relative;
+}
+
+#great-text {
+  display: block;
+  width: 640px;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 177px;
+  left: 118px;
+  color: rgba(153, 153, 153, 1);
+}
+
+.header {
+  position: absolute;
+  top: 54px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.nav > ul > li {
+  display: inline-block;
+}
+
+.gray {
+  position: relative;
+  background: #f6f6f6;
+}
+
+#gray-1 {
+  margin: 0 0 0 auto;
+}
+
+#photo {
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+/* INFO  */
+
+.section {
+  position: relative;
+  margin-top: 50px;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgba(153, 153, 153, 1);
+}
+
+.title {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.title-wrapper > .title {
+  display: inline-block;
+  position: absolute;
+  top: -60px;
+}
+
+.title-wrapper .main-text {
+  margin-top: 65px;
+}
+
+.title-wrapper {
+  position: relative;
+}
+
+.section > ul {
+  margin-top: 15px;
+  padding-left: 35px;
+}
+
+.centered {
+  margin-left: 355px;
+}
+
+#about-me {
+  display: block;
+  width: 927px;
+}
+
+#contact-1 {
+  list-style-image: url("../icons/gmail.png");
+}
+
+#contact-2 {
+  list-style-image: url("../icons/telegram.png");
+}
+
+#contact-3 {
+  list-style-image: url("../icons/discord.png");
+}
+
+#skills {
+  list-style-image: url("../icons/square.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#edu {
+  list-style-image: url("../icons/square.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.purple {
+  height: 20px;
+  width: 90px;
+  background-color: #583aa7;
+  position: absolute;
+}
+
+#code {
+  position: relative;
+  right: 48px;
+}
+
+#english {
+  display: block;
+  width: 690px;
+}
+
+.under::after {
+  content: "";
+  margin: 0 auto;
+  margin-top: 2px;
+  width: 0px;
   height: 2px;
   display: block;
   background: black;
@@ -182,5 +349,72 @@
 
   .purple {
     bottom: 25px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .main-wrapper {
+    width: 1400px;
+  }
+  #great-text {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  #photo {
+    width: 592px;
+  }
+  .gray {
+    width: 1045px;
+  }
+  .header {
+    width: 453px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  #about-me {
+    width: 927px;
+  }
+  .section {
+    margin-left: 118px;
+  }
+  .centered {
+    margin-left: 355px;
+  }
+  .heading {
+    margin-top: 175px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  .title {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .main-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .footer {
+    height: 130px;
+    margin-top: 175px;
+  }
+  #rs-logo {
+    width: 82px;
+  }
+  #youtube {
+    width: 82px;
+  }
+
+  .purple {
+    bottom: 20px;
+  }
+
+  #first-p {
+    left: 50px;
+  }
+  #second-p {
+    left: 115px;
+  }
+  #third-p {
+    left: 30px;
   }
 }
