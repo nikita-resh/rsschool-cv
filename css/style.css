@@ -3,6 +3,10 @@ body {
   width: 100%;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .menu {
   background-color: #f6f6f6;
   position: fixed;
@@ -276,6 +280,49 @@ li > a {
 
 #youtube:hover {
   opacity: 100%;
+}
+
+.project {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.project-title {
+  font: 400 normal 24px/24px "Poppins", sans-serif;
+}
+
+.technologies {
+  margin-top: 10px;
+  font: 400 normal 16px/18px "Poppins", sans-serif;
+}
+
+.project-desc {
+  margin-top: 10px;
+  font: 400 normal 16px/18px "Poppins", sans-serif;
+}
+
+.see-project {
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+  width: 120px;
+  font: 400 normal 16px/40px "Poppins", sans-serif;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #583aa7;
+  color: white;
+}
+
+.project-info {
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.project-img {
+  width: 500px;
+  border-radius: 3px;
 }
 
 @media (min-width: 1200px) {
