@@ -97,13 +97,16 @@
           <div class="purple" id="second-p"></div>
         </div>
         <pre class="main-text" id="code">
-          function truncate(str, maxlength) {
-            let newStr;
-            if (str.length > maxlength) {
-              newStr = str.slice(0, maxlength - 3) + "...";
-              return newStr;
-            }
-            return str;
+          function compose() {
+            let funcs = Array.from(arguments);
+            return function (x) {
+              if (funcs.length < 1) return x;
+              let f = funcs[funcs.length - 1](x);
+              for (let i = funcs.length - 2; i >= 0; i--) {
+                f = funcs[i](f);
+              }
+              return f;
+            };
           }
         </pre>
       </section>
