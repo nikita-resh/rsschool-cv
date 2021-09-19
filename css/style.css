@@ -1,7 +1,61 @@
 body {
-  /* background: #e5e5e5; */
   background-color: #fff;
   width: 100%;
+}
+
+.menu {
+  background-color: #f6f6f6;
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  top: 0px;
+  left: -200px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all ease-in-out 0.3s;
+}
+
+.menu .nav ul {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu:hover {
+  left: 0px;
+}
+
+.menu:hover .menu__img {
+  opacity: 0;
+}
+
+.menu__img {
+  position: absolute;
+  top: 50px;
+  right: -50px;
+  width: 35px;
+  height: 35px;
+  background: url("../icons/menu.png") center center;
+  background-size: contain;
+  transition: all ease-in-out 0.3s;
+}
+
+.menu__img:hover {
+  right: 0;
+  opacity: 0;
+}
+
+.menu .nav ul a {
+  transition: all ease-in-out 0.3s;
+}
+
+.menu .nav ul a:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .main-text {
