@@ -1,5 +1,6 @@
 body {
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
+  background-color: #fff;
   width: 100%;
 }
 
@@ -416,5 +417,10 @@ li > a {
   }
   #third-p {
     left: 30px;
+  }
+
+  .footer-content {
+    margin: 0 auto;
+    width: 1400px;
   }
 }
