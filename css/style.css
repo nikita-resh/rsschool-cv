@@ -725,6 +725,9 @@ li > a {
   .project-img {
     width: 350px;
   }
+  .project-info {
+    padding-left: 25px;
+  }
 
   .footer-content {
     width: 700px;
@@ -762,6 +765,9 @@ li > a {
   }
   .section {
     margin-left: 80px;
+  }
+  #english {
+    width: 650px;
   }
   .centered {
     margin-top: 115px;
