@@ -11,6 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="highlight/styles/qtcreator-light.min.css">
+    <script src="highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -100,6 +103,7 @@
           <div class="purple" id="second-p"></div>
         </div>
         <pre class="main-text" id="code">
+          <code class="language-js">
           function compose() {
             let funcs = Array.from(arguments);
             return function (x) {
@@ -111,6 +115,7 @@
               return f;
             };
           }
+        </code>
         </pre>
       </section>
 
