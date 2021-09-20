@@ -11,9 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="highlight/styles/qtcreator-light.min.css">
+    <link rel="stylesheet" href="highlight/styles/qtcreator-light.min.css" />
     <script src="highlight/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script>
+      hljs.highlightAll();
+    </script>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -107,9 +109,9 @@
           function compose() {
             let funcs = Array.from(arguments);
             return function (x) {
-              if (funcs.length < 1) return x;
+              if (funcs.length 	&lt; 1) return x;
               let f = funcs[funcs.length - 1](x);
-              for (let i = funcs.length - 2; i >= 0; i--) {
+              for (let i = funcs.length - 2; i &ge; 0; i--) {
                 f = funcs[i](f);
               }
               return f;
@@ -142,23 +144,46 @@
       <section class="section" id="projects">
         <h3 class="title">Projects</h3>
         <div class="project">
-          <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/"><img alt="photofilter" src="./img/filter.png" class="project-img"></img></a>
-          
+          <a
+            href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/"
+            ><img alt="photofilter" src="./img/filter.png" class="project-img"
+          /></a>
+
           <div class="project-info">
             <h3 class="project-title">Photofilter</h3>
             <h5 class="technologies">HTML, CSS, JS</h5>
-            <div class="project-desc">Using the online photo-filter you can edit edit your photos: apply filters, create your own filters, save edited photo. Also you can copy css-styles of filter.</div>
-            <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/" class="see-project" target="_blank">See project</a>
+            <div class="project-desc">
+              Using the online photo-filter you can edit edit your photos: apply
+              filters, create your own filters, save edited photo. Also you can
+              copy css-styles of filter.
+            </div>
+            <a
+              href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/"
+              class="see-project"
+              target="_blank"
+              >See project</a
+            >
           </div>
         </div>
         <div class="project">
-          <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/"><img alt="photofilter" src="./img/piano.png" class="project-img"></img></a>
-          
+          <a
+            href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/"
+            ><img alt="photofilter" src="./img/piano.png" class="project-img"
+          /></a>
+
           <div class="project-info">
             <h3 class="project-title">Piano</h3>
             <h5 class="technologies">HTML, CSS, JS</h5>
-            <div class="project-desc">Virtual piano is a music application in which you can play sounds by pressing keys on the keyboard. Each key has its own sound.</div>
-            <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/" class="see-project" target="_blank">See project</a>
+            <div class="project-desc">
+              Virtual piano is a music application in which you can play sounds
+              by pressing keys on the keyboard. Each key has its own sound.
+            </div>
+            <a
+              href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/"
+              class="see-project"
+              target="_blank"
+              >See project</a
+            >
           </div>
         </div>
       </section>
