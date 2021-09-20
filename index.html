@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <aside class="menu">
+      <div class="menu__img"></div>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="#personal" class="nav-item">personal</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-item">my experience</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-item">projects</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main-wrapper">
+      <div class="intro">
+        <div class="gray" id="gray-1">
+          <header class="header">
+            <nav class="nav">
+              <ul>
+                <li class="under">
+                  <a href="#personal" class="nav-item">personal</a>
+                </li>
+                <li class="under">
+                  <a href="#experience" class="nav-item">my experience</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <img src="img/photo.png" alt="personal photo" id="photo" />
+        </div>
+        <h1 id="great-text">
+          Hello, <br />
+          I’m Nikita <br />
+          Reshetnikov
+        </h1>
+      </div>
+
+      <h2 class="heading" id="personal">Personal information</h2>
+
+      <section class="section">
+        <h3 class="title">contacts</h3>
+        <ul id="contacts" class="main-text">
+          <li id="contact-1">nikita.reshetnikov9@gmail.com</li>
+          <li id="contact-2">nikita_res</li>
+          <li id="contact-3">nik_resh#6270</li>
+        </ul>
+      </section>
+
+      <section class="section centered">
+        <div class="title-wrapper">
+          <h3 class="title">about me</h3>
+          <div class="purple" id="first-p"></div>
+        </div>
+        <span id="about-me" class="main-text"
+          >I’m a second-year student of BSU. The second semester has already
+          finished and you know… it’s getting harder and harder for me not to
+          feel I’m getting better day after day. That is the main reason why
+          I've decided to try something new (rs school). I hope my diligence and
+          the courses will help me to obtain useful knowledge.</span
+        >
+      </section>
+
+      <h2 class="heading" id="experience">My experience</h2>
+
+      <section class="section">
+        <h3 class="title">skills</h3>
+        <ul id="skills" class="main-text">
+          <li>HTML & CSS</li>
+          <li>JS</li>
+          <li>React</li>
+          <li>Figma</li>
+          <li>Git</li>
+          <li>Photoshop</li>
+        </ul>
+      </section>
+
+      <section class="section centered">
+        <div class="title-wrapper">
+          <h3 class="title">code example</h3>
+          <div class="purple" id="second-p"></div>
+        </div>
+        <pre class="main-text" id="code">
+          function compose() {
+            let funcs = Array.from(arguments);
+            return function (x) {
+              if (funcs.length < 1) return x;
+              let f = funcs[funcs.length - 1](x);
+              for (let i = funcs.length - 2; i >= 0; i--) {
+                f = funcs[i](f);
+              }
+              return f;
+            };
+          }
+        </pre>
+      </section>
+
+      <section class="section">
+        <h3 class="title">education</h3>
+        <ul id="edu" class="main-text">
+          <li>In 2020 I finished BSU Lyceum</li>
+          <li>Then I entered BSU (Mechanics and Mathematisc faculty)</li>
+          <li>RS PreSchool</li>
+        </ul>
+      </section>
+
+      <section class="section centered">
+        <div class="title-wrapper">
+          <h3 class="title">English</h3>
+          <div class="purple" id="third-p"></div>
+        </div>
+        <span class="main-text" id="english"
+          >My level of English is B1 (I have some speaking practice, but not
+          with native speakers)</span
+        >
+      </section>
+
+      <section class="section" id="projects">
+        <h3 class="title">Projects</h3>
+        <div class="project">
+          <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/"><img alt="photofilter" src="./img/filter.png" class="project-img"></img></a>
+          
+          <div class="project-info">
+            <h3 class="project-title">Photofilter</h3>
+            <h5 class="technologies">HTML, CSS, JS</h5>
+            <div class="project-desc">Using the online photo-filter you can edit edit your photos: apply filters, create your own filters, save edited photo. Also you can copy css-styles of filter.</div>
+            <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/" class="see-project" target="_blank">See project</a>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/"><img alt="photofilter" src="./img/piano.png" class="project-img"></img></a>
+          
+          <div class="project-info">
+            <h3 class="project-title">Piano</h3>
+            <h5 class="technologies">HTML, CSS, JS</h5>
+            <div class="project-desc">Virtual piano is a music application in which you can play sounds by pressing keys on the keyboard. Each key has its own sound.</div>
+            <a href="https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/" class="see-project" target="_blank">See project</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="https://github.com/nikita-resh" class="main-text" id="github"
+          >GitHub</a
+        >
+
+        <time class="main-text" id="time">2021</time>
+        <a href="#"
+          ><img src="icons/youtube.png" alt="youtube logo" id="youtube"
+        /></a>
+        <a href="https://rs.school/js-stage0/"
+          ><img src="icons/rs.svg" alt="rs school logo" id="rs-logo"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
